@@ -71,6 +71,7 @@ const getWeatherDataFromApi = async () => {
     //append vs. prepend
     list.prepend(createdLi);
 
+
     //Capturing
     // createdLi.addEventListener("click", (e)=>{
     //     if(e.target.tagName == "IMG"){
@@ -102,6 +103,9 @@ const getWeatherDataFromApi = async () => {
   }
   form.reset();
 };
+
+
+
 //window onload
 // document.querySelector(".cities").addEventListener("click", (e) => {
 //     if (e.target.tagName == "IMG") {
